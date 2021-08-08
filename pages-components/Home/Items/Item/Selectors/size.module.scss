@@ -1,0 +1,39 @@
+.sizeSelector {
+
+
+  ul {
+    display: flex;
+    flex: 1;
+
+    &:first-of-type {
+      margin-bottom: 6px;
+    }
+
+    li {
+      flex: 1;
+
+      padding: 8px;
+
+      cursor: pointer;
+
+      font-size: 14px;
+      font-weight: 600;
+
+
+    }
+  }
+
+  &Active {
+    cursor: auto;
+
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
+  }
+
+  &DisableItem {
+    pointer-events: none;
+    color: gray;
+  }
+}
+

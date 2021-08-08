@@ -1,0 +1,13 @@
+{
+//  "rules": {
+//
+//    "@typescript-eslint/no-empty-interface": [
+//      "error",
+//      {
+//        "allowSingleExtends": true
+//      }
+//    ]
+//  },
+
+  "extends": ["next", "next/core-web-vitals"]
+}

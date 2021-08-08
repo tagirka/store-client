@@ -1,0 +1,40 @@
+
+.header {
+	padding: 40px 0;
+
+	border-bottom: 1px solid var(--gray-line);
+
+	//.header__logo {
+	//	display: flex;
+	//	cursor: pointer;
+	//
+	//}
+
+	.container {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+	}
+
+	&--cart {
+
+	}
+
+	//&__title {
+	//	margin-left: 15px;
+	//}
+
+	h1 {
+		//letter-spacing: 1%;
+		text-transform: uppercase;
+
+		color: #181818;
+
+		font-size: 24px;
+		font-weight: 800;
+	}
+
+	p {
+		color: var(--gray);
+	}
+}
